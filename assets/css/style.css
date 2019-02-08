@@ -2,3 +2,19 @@
     background: #ffc107;
     color: white;
 }
+
+.caixa{
+	padding: 60px 0;
+	border-bottom: 1px solid #3e5e5e5;
+}
+
+@media only screen and (max-width: 767px){
+	
+	.input-group-append{width: 50%;}
+	.texto-top{width: 100%; margin: auto 0;}
+	.texto-top h1{font-size: 50px; text-align: center;}
+	.texto-top p{text-align: center;}
+	.plataformas{text-align: center;}
+	.form-center{text-align: center;}
+
+}

@@ -20,7 +20,7 @@
   </head>
   <body>
     
-    <header> <!-- Inicio Cabecalho -->
+    <header><!-- Inicio Cabecalho -->
         <nav class="navbar navbar-expand-sm navbar-light bg-warning">
             <div class="container">
                 <a href="#" class="navbar-brand"><img src="img/logo.png" width="142" alt=""></a>
@@ -51,41 +51,81 @@
 
             </div>
         </nav>
-    </header> <!-- Fim do Cabecalho -->
+    </header><!-- Fim do Cabecalho -->
 
-    <section id="home">
+    <section id="home"><!-- Inicio Seção HOME -->
         <div class="container">
             <div class="row">
                 <div class="col-md-6 d-flex">
-                    <div class="align-self-center">
-                        <h1 class="display-4">Suas contas, descomplicadas</h1>
-                        <p>Usado por mais de 1 milhão de pessoas, o Organizze é uma ferramenta online que vai facilitar sua vida financeira.</p>
+                    <div class="align-self-center" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <div class="texto-top">      
+                            <h1 class="display-4">Suas contas, descomplicadas</h1>
+                            <p>Usado por mais de 1 milhão de pessoas, o Organizze é uma ferramenta online que vai facilitar sua vida financeira.</p>
+                        </div>
 
-                        <form class="mt-4 mb-4">
-                            <div class="input-group input-group-lg">
+                        <form class="mt-4 mb-4 form-center">
+                            <div class="input-group input-group-lg input-row">
                                 <input type="text" placeholder="Seu e-mail" class="form-control">
                                 <div class="input-group-append">
                                     <button type="button" class="btn btn-primary">Cadastra-se</button>
                                 </div>
                             </div>
                         </form>
-
-                        <p>
-                            Disponivel para 
+                        <p class="plataformas">
+                            Disponivel também para
                             <a href="" class="btn btn-outline-light"><i class="fab fa-android"></i></a>
                             <a href="" class="btn btn-outline-light"><i class="fab fa-apple"></i></a>
                         </p>
-
                     </div>
                 </div>
-                <div class="col-md-6 d-none d-md-block " >
-                        <div data-aos="fade-left" data-aos-duration="2000">
+                <div class="col-md-6 d-none d-md-block ">
+                        <div data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <img src="img/capa-mulher.png" alt="">
                         </div>
                 </div>
             </div>
         </div>
+    </section><!-- Fim Seção HOME -->
+
+    <section class="caixa">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <h2>Saiba para onde vai o seu dinheiro</h2>
+                        <p>Com o Organizze, você categoriza todos os seus lançamentos. Com gráficos simples, você sabe de onde vem e para onde vai o seu dinheiro.</p>
+                        <a href="#" class="btn btn-primary">Veja mais</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/saiba.png" class="img-fluid" alt="#">
+                </div>
+            </div>
+        </div>
+    </section>   
+
+    <section class="caixa">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/juros.png" class="img-fluid" alt="#">
+                </div>
+                <div class="col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <h2>Pare de pagar juros e economize</h2>
+                        <p>Manter as contas em dia é sempre um problema? O Organizze avisa você: receba alertas de contas a pagar e a receber!</p>
+                        <a href="#" class="btn btn-primary">Veja mais</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
+
+
+
+
+
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
