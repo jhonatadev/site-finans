@@ -5,7 +5,7 @@
 
 .caixa{
 	padding: 60px 0;
-	border-bottom: 1px solid #3e5e5e5;
+	border-bottom: 2px solid #e0ecf2;
 }
 
 @media only screen and (max-width: 767px){
