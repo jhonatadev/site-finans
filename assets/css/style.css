@@ -17,11 +17,10 @@ footer p a {
 
 @media only screen and (max-width: 767px){
 	
-	.input-group-append{width: 50%;}
+	.input-group-append{text-align: center;}
 	.texto-top{width: 100%; margin: auto 0;}
-	.texto-top h1{font-size: 50px; text-align: center;}
+	.texto-top h1{font-size: 35px; text-align: center;}
 	.texto-top p{text-align: center;}
 	.plataformas{text-align: center;}
-	.form-center{text-align: center;}
 
 }
