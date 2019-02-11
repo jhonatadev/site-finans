@@ -1,14 +1,23 @@
+s*{
+	margin: 0;
+	padding: 0;
+}
+
+
 #home{
     background: #ffc107;
     color: white;
+    overflow-x: hidden;
 }
 
 .caixa{
 	padding: 60px 0;
 	border-bottom: 2px solid #e0ecf2;
+	overflow-x: hidden;
 }
 #recur{
 	background: #f6f6f8;
+	overflow-x: hidden;
 }
 
 footer p a {
