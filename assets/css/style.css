@@ -1,11 +1,11 @@
-s*{
+*{
 	margin: 0;
 	padding: 0;
 }
 
 
 #home{
-    background: #ffc107;
+	background: #ffc107;
     color: white;
     overflow-x: hidden;
 }
@@ -31,5 +31,4 @@ footer p a {
 	.texto-top h1{font-size: 35px; text-align: center;}
 	.texto-top p{text-align: center;}
 	.plataformas{text-align: center;}
-
 }
